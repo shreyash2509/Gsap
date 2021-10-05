@@ -6,22 +6,17 @@
 ::-webkit-scrollbar {
   width: 0px;
 }
-
-.hid {
-  display: none;
-}
-
 body {
   overflow-x: hidden;
+}
+
+.hide {
+  display: none;
 }
 
 .container-fluid {
   display: none;
 }
-
-/*.section-2 {
-  display: none;
-}*/
 
 .largest-div {
   height: 250vh;
@@ -36,7 +31,7 @@ body {
   width: 100vw;
 }
 
-/* CSS for 1st Page */
+/*  1st Page */
 
 .section-1 {
   position: relative;
@@ -54,9 +49,8 @@ body {
   height: 100vh;
 }
 
-.left-container-main-content-1 {
+.leftc-m-1 {
   display: flex;
-  /* justify-content: space-between; */
   padding-top: 10%;
 }
 
@@ -92,22 +86,22 @@ body {
   bottom: 8%;
 }
 
-.description-1 {
+.d1 {
   color: white;
 }
 
-.description-1 h2 {
+.d1 h2 {
   padding-top: 1em;
   padding-bottom: 0.7em;
   font-size: 44px;
 }
 
-.description-1 p {
+.d1 p {
   padding-bottom: 1em;
   font-size: 21px;
 }
 
-.description-1 img {
+.d1 img {
   max-width: 280px;
   margin: auto;
 }
@@ -119,7 +113,7 @@ body {
   justify-content: space-between;
 }
 
-.right-container-1 {
+.rc1 {
   background-color: rgb(192, 190, 190);
   width: 60vw;
   height: 100vh;
@@ -127,13 +121,13 @@ body {
   justify-content: center;
 }
 
-.right-container-1 img {
+.rc1 img {
   padding-top: 200px;
   width: 330px;
   height: 780px;
 }
 
-/* CSS for 2nd Page */
+/*  2nd Page */
 
 .section-2 {
   position: relative;
@@ -151,7 +145,7 @@ body {
   height: 100vh;
 }
 
-.left-container-main-content-2 {
+.leftc-m-2 {
   display: flex;
   padding-top: 10%;
 }
@@ -192,22 +186,22 @@ body {
   left: 3%;
 }
 
-.description-2 {
+.d2 {
   color: white;
 }
 
-.description-2 h2 {
+.d2 h2 {
   padding-top: 1em;
   padding-bottom: 0.7em;
   font-size: 44px;
 }
 
-.description-2 p {
+.d2 p {
   padding-bottom: 1em;
   font-size: 21px;
 }
 
-.description-2 img {
+.d2 img {
   max-width: 280px;
   margin: auto;
 }
@@ -219,7 +213,7 @@ body {
   justify-content: space-between;
 }
 
-.right-container-2 {
+.rc2 {
   background-color: rgb(19, 4, 104);
   width: 60vw;
   height: 100vh;
@@ -244,7 +238,7 @@ body {
   height: 480px;
 }
 
-/* CSS for 3rd Page */
+/*  3rd Page */
 
 .section-3 {
   position: relative;
@@ -262,7 +256,7 @@ body {
   height: 100vh;
 }
 
-.left-container-main-content-3 {
+.leftc-m-3 {
   display: flex;
   padding-top: 10%;
 }
@@ -303,22 +297,22 @@ body {
   left: 3%;
 }
 
-.description-3 {
+.d3 {
   color: white;
 }
 
-.description-3 h2 {
+.d3 h2 {
   padding-top: 1em;
   padding-bottom: 0.7em;
   font-size: 44px;
 }
 
-.description-3 p {
+.d3 p {
   padding-bottom: 1em;
   font-size: 21px;
 }
 
-.description-3 img {
+.d3 img {
   max-width: 280px;
   margin: auto;
 }
@@ -330,7 +324,7 @@ body {
   justify-content: space-between;
 }
 
-.right-container-3 {
+.rc3 {
   background-color: rgb(24, 24, 88);
   width: 60vw;
   height: 100vh;
@@ -353,7 +347,7 @@ body {
   width: 260px;
 }
 
-/* CSS for 4th Page  */
+/*  4th Page  */
 
 .section-4 {
   position: relative;
@@ -371,7 +365,7 @@ body {
   height: 100vh;
 }
 
-.left-container-main-content-4 {
+.leftc-m-4 {
   display: flex;
   padding-top: 10%;
 }
@@ -412,22 +406,22 @@ body {
   left: 3%;
 }
 
-.description-4 {
+.d4 {
   color: white;
 }
 
-.description-4 h2 {
+.d4 h2 {
   padding-top: 1em;
   padding-bottom: 0.7em;
   font-size: 44px;
 }
 
-.description-4 p {
+.d4 p {
   padding-bottom: 1em;
   font-size: 21px;
 }
 
-.description-4 img {
+.d4 img {
   max-width: 280px;
   margin: auto;
 }
@@ -439,7 +433,7 @@ body {
   justify-content: space-between;
 }
 
-.right-container-4 {
+.rc4 {
   background-color: rgb(22, 27, 33);
   width: 60vw;
   height: 100vh;
@@ -483,7 +477,7 @@ body {
   right: 0%;
 }
 
-/* CSS for 5th Page  */
+/*  5th Page  */
 
 .section-5 {
   position: relative;
@@ -501,7 +495,7 @@ body {
   height: 100vh;
 }
 
-.left-container-main-content-5 {
+.leftc-m-5 {
   display: flex;
   padding-top: 10%;
 }
@@ -542,22 +536,22 @@ body {
   left: 3%;
 }
 
-.description-5 {
+.d5 {
   color: white;
 }
 
-.description-5 h2 {
+.d5 h2 {
   padding-top: 1em;
   padding-bottom: 0.7em;
   font-size: 44px;
 }
 
-.description-5 p {
+.d5 p {
   padding-bottom: 1em;
   font-size: 21px;
 }
 
-.description-5 img {
+.d5 img {
   max-width: 280px;
   margin: auto;
 }
@@ -569,7 +563,7 @@ body {
   justify-content: space-between;
 }
 
-.right-container-5 {
+.rc5 {
   background-color: rgb(129, 216, 228);
   width: 60vw;
   height: 100vh;
@@ -614,7 +608,7 @@ body {
   width: 220px;
 }
 
-/* CSS for 6th Page  */
+/*  6th Page  */
 
 .section-6 {
   position: relative;
@@ -632,7 +626,7 @@ body {
   height: 100vh;
 }
 
-.left-container-main-content-6 {
+.leftc-m-6 {
   display: flex;
   padding-top: 10%;
 }
@@ -673,22 +667,22 @@ body {
   left: 3%;
 }
 
-.description-6 {
+.d6 {
   color: white;
 }
 
-.description-6 h2 {
+.d6 h2 {
   padding-top: 1em;
   padding-bottom: 0.7em;
   font-size: 44px;
 }
 
-.description-6 p {
+.d6 p {
   padding-bottom: 1em;
   font-size: 21px;
 }
 
-.description-6 img {
+.d6 img {
   max-width: 280px;
   margin: auto;
 }
@@ -700,7 +694,7 @@ body {
   justify-content: space-between;
 }
 
-.right-container-6 {
+.rc6 {
   width: 60vw;
   height: 100vh;
   display: flex;
@@ -718,7 +712,7 @@ body {
   height: 100vh;
 }
 
-/* CSS for 7th Page  */
+/*  7th Page  */
 
 .section-7 {
   position: relative;
@@ -736,7 +730,7 @@ body {
   height: 100vh;
 }
 
-.left-container-main-content-7 {
+.leftc-m-7 {
   display: flex;
   padding-top: 10%;
 }
@@ -777,22 +771,22 @@ body {
   left: 3%;
 }
 
-.description-7 {
+.d7 {
   color: white;
 }
 
-.description-7 h2 {
+.d7 h2 {
   padding-top: 1em;
   padding-bottom: 0.7em;
   font-size: 44px;
 }
 
-.description-7 p {
+.d7 p {
   padding-bottom: 1em;
   font-size: 21px;
 }
 
-.description-7 img {
+.d7 img {
   max-width: 280px;
   margin: auto;
 }
@@ -804,7 +798,7 @@ body {
   justify-content: space-between;
 }
 
-.right-container-7 {
+.rc7 {
   background-color: rgb(64, 167, 78);
   width: 60vw;
   height: 100vh;
@@ -822,14 +816,16 @@ body {
 .page-7-img-2 {
   position: absolute;
   bottom: 0px;
-  left: 42%;
+  left: 49%;
   width: 300px;
 }
 
-@media only screen and (max-width: 1300px) {
-  /* CSS for 1st Page */
+/*css for 1300 px*/
 
-  .right-container-1 img {
+@media only screen and (max-width: 1300px) {
+  /*  1st Page */
+
+  .rc1 img {
     padding-top: 170px;
     width: 250px;
     height: 580px;
@@ -848,19 +844,19 @@ body {
     font-size: 16px;
   }
 
-  .description-1 img {
+  .d1 img {
     width: 200px;
   }
 
-  .description-1 h2 {
+  .d1 h2 {
     font-size: 30px;
   }
 
-  .description-1 p {
+  .d1 p {
     font-size: 16px;
   }
 
-  /* CSS for 2nd Page */
+  /*  2nd Page */
 
   .left-container-heading-2 {
     top: 21%;
@@ -875,15 +871,15 @@ body {
     font-size: 16px;
   }
 
-  .description-2 img {
+  .d2 img {
     width: 200px;
   }
 
-  .description-2 h2 {
+  .d2 h2 {
     font-size: 30px;
   }
 
-  .description-2 p {
+  .d2 p {
     font-size: 16px;
   }
 
@@ -899,7 +895,7 @@ body {
     height: 400px;
   }
 
-  /* CSS for 3rd page  */
+  /*  3rd page  */
 
   .left-container-heading-3 {
     top: 20%;
@@ -914,15 +910,15 @@ body {
     font-size: 20px;
   }
 
-  .description-3 img {
+  .d3 img {
     width: 200px;
   }
 
-  .description-3 h2 {
+  .d3 h2 {
     font-size: 30px;
   }
 
-  .description-3 p {
+  .d3 p {
     font-size: 16px;
   }
 
@@ -937,7 +933,7 @@ body {
     width: 210px;
   }
 
-  /* CSS for 4th Page  */
+  /*  4th Page  */
 
   .left-container-heading-4 {
     top: 20%;
@@ -952,15 +948,15 @@ body {
     font-size: 20px;
   }
 
-  .description-4 img {
+  .d4 img {
     width: 200px;
   }
 
-  .description-4 h2 {
+  .d4 h2 {
     font-size: 30px;
   }
 
-  .description-4 p {
+  .d4 p {
     font-size: 16px;
   }
 
@@ -999,7 +995,7 @@ body {
     width: 200px;
   }
 
-  /* CSS for 5th Page  */
+  /*  5th Page  */
 
   .left-container-heading-5 {
     top: 20%;
@@ -1014,15 +1010,15 @@ body {
     font-size: 20px;
   }
 
-  .description-5 img {
+  .d5 img {
     width: 200px;
   }
 
-  .description-5 h2 {
+  .d5 h2 {
     font-size: 30px;
   }
 
-  .description-5 p {
+  .d5 p {
     font-size: 16px;
   }
 
@@ -1059,7 +1055,7 @@ body {
     width: 160px;
   }
 
-  /* CSS for 6th Page  */
+  /*  6th Page  */
 
   .left-container-heading-6 {
     top: 20%;
@@ -1074,19 +1070,19 @@ body {
     font-size: 20px;
   }
 
-  .description-6 img {
+  .d6 img {
     width: 200px;
   }
 
-  .description-6 h2 {
+  .d6 h2 {
     font-size: 30px;
   }
 
-  .description-6 p {
+  .d6 p {
     font-size: 16px;
   }
 
-  /* CSS for 7th Page  */
+  /*  7th Page  */
 
   .left-container-heading-7 {
     top: 22%;
@@ -1101,15 +1097,15 @@ body {
     font-size: 16px;
   }
 
-  .description-7 img {
+  .d7 img {
     width: 200px;
   }
 
-  .description-7 h2 {
+  .d7 h2 {
     font-size: 30px;
   }
 
-  .description-7 p {
+  .d7 p {
     font-size: 16px;
   }
 
@@ -1121,13 +1117,15 @@ body {
 
   .page-7-img-2 {
     bottom: 0px;
-    left: 42%;
+    left: 49%;
     width: 250px;
   }
 }
 
+/*css for 1100 px*/
+
 @media only screen and (max-width: 1100px) {
-  /* CSS for 1st Page */
+  /*  1st Page */
 
   .left-container-heading-1 {
     left: 12%;
@@ -1146,7 +1144,7 @@ body {
     font-size: 17px;
   }
 
-  /* CSS for 2nd Page */
+  /*  2nd Page */
 
   .page-2-img-1 {
     left: 46%;
@@ -1160,7 +1158,7 @@ body {
     height: 310px;
   }
 
-  /* CSS for 3rd Page  */
+  /*  3rd Page  */
 
   .page-3-img-1 {
     left: 49%;
@@ -1172,7 +1170,7 @@ body {
     width: 180px;
   }
 
-  /* CSS for 4th Page */
+  /*  4th Page */
 
   .page-4-img-2 {
     left: 40%;
@@ -1201,7 +1199,7 @@ body {
     width: 170px;
   }
 
-  /* CSS for 5th Page  */
+  /*  5th Page  */
 
   .page-5-img-1 {
     left: 50%;
@@ -1236,7 +1234,7 @@ body {
     width: 120px;
   }
 
-  /* CSS for 7th Page  */
+  /*  7th Page  */
 
   .page-7-img-1 {
     bottom: 0px;
@@ -1246,7 +1244,134 @@ body {
 
   .page-7-img-2 {
     bottom: 0px;
-    left: 38%;
+    left: 42%;
+    width: 200px;
+  }
+}
+
+/*css for 950 px*/
+
+@media only screen and (max-width: 950px) {
+  /*  1st Page */
+
+  .left-container-heading-1 {
+    left: 10%;
+    top: 20%;
+  }
+
+  .svg-image-1 svg {
+    left: 18%;
+  }
+
+  .left-container-heading-1 h1 {
+    font-size: 32px;
+  }
+
+  .left-container-heading-1 p {
+    font-size: 15px;
+  }
+
+  /*  2nd Page */
+
+  .page-2-img-1 {
+    left: 43%;
+    width: 170px;
+    height: 550px;
+  }
+
+  .page-2-img-2 {
+    left: 61%;
+    width: 160px;
+    height: 280px;
+  }
+
+  /*  3rd Page  */
+
+  .page-3-img-1 {
+    left: 46%;
+    width: 160px;
+  }
+
+  .page-3-img-2 {
+    left: 64%;
+    width: 160px;
+  }
+
+  /*  4th Page */
+
+  .page-4-img-2 {
+    left: 40%;
+    width: 150px;
+    height: 310px;
+  }
+
+  .page-4-img-3 {
+    top: 12%;
+    left: 60%;
+    width: 130px;
+    height: 300px;
+  }
+
+  .page-4-img-4 {
+    position: absolute;
+    top: 0%;
+    right: 10%;
+    width: 78px;
+  }
+
+  .page-4-img-5 {
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+    width: 150px;
+  }
+
+  /*  5th Page  */
+
+  .page-5-img-1 {
+    left: 50%;
+    top: 0%;
+    width: 100px;
+  }
+
+  .page-5-img-2 {
+    top: 6%;
+    left: 63%;
+    width: 100px;
+    height: 220px;
+  }
+
+  .page-5-img-3 {
+    top: 22%;
+    left: 76%;
+    width: 100px;
+    height: 220px;
+  }
+
+  .page-5-img-4 {
+    position: absolute;
+    bottom: 0%;
+    left: 63.5%;
+    width: 100px;
+  }
+
+  .page-5-img-5 {
+    bottom: 0%;
+    left: 50.5%;
+    width: 100px;
+  }
+
+  /*  7th Page  */
+
+  .page-7-img-1 {
+    bottom: 0px;
+    left: 57%;
+    width: 200px;
+  }
+
+  .page-7-img-2 {
+    bottom: 0px;
+    left: 42%;
     width: 200px;
   }
 }
@@ -1305,7 +1430,7 @@ body {
     margin-top: 0px;
   }
 
-  /* CSS For 1st Page Mobile  */
+  /*  1st Page Mobile  */
 
   .first-page-top {
     display: flex;
@@ -1361,7 +1486,7 @@ body {
     font-size: 15px;
   }
 
-  /* CSS for 2nd Page Mobile  */
+  /*  2nd Page Mobile  */
 
   .second-page-top {
     display: flex;
@@ -1425,7 +1550,7 @@ body {
     background-color: white;
   }
 
-  /* CSS for 3rd page Mobile  */
+  /*  3rd page Mobile  */
 
   .third-page-top {
     display: flex;
@@ -1489,7 +1614,7 @@ body {
     background-color: white;
   }
 
-  /* CSS for 4th page mobile  */
+  /*  4th page mobile  */
 
   .fourth-page-top {
     display: flex;
@@ -1590,7 +1715,7 @@ body {
     background-color: rgb(24, 24, 88);
   }
 
-  /* CSS for 5th Page Mobile  */
+  /*  5th Page Mobile  */
 
   .fifth-page-top {
     display: flex;
@@ -1677,7 +1802,7 @@ body {
     background-color: rgb(24, 24, 88);
   }
 
-  /* CSS for 6th Page Mobile  */
+  /*  6th Page Mobile  */
 
   .sixth-page-top {
     display: flex;
@@ -1730,7 +1855,7 @@ body {
     padding-top: 20px;
   }
 
-  /* CSS for 7th Page Mobile  */
+  /*  7th Page Mobile  */
 
   .seventh-page-top {
     display: flex;

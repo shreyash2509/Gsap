@@ -5,24 +5,29 @@ function display_s1() {
     duration: 0.5,
     opacity: 0,
   });
-  gsap.from(".description-1", {
+  gsap.from(".d1", {
     y: 100,
     stagger: 0.1,
     duration: 0.5,
     opacity: 0,
   });
-  gsap.from(".right-container-1 img", {
+  gsap.from(".page-1-img-1", {
     opacity: 0,
     duration: 1,
     y: 700,
   });
-  document.getElementById("main_s1").classList.remove("hid");
-  document.getElementById("main_s2").classList.add("hid");
-  document.getElementById("main_s3").classList.add("hid");
-  document.getElementById("main_s4").classList.add("hid");
-  document.getElementById("main_s5").classList.add("hid");
-  document.getElementById("main_s6").classList.add("hid");
-  document.getElementById("main_s7").classList.add("hid");
+  gsap.from(".page-1-img-2", {
+    opacity: 0,
+    duration: 1,
+    y: 700,
+  });
+  document.getElementById("main1").classList.remove("hide");
+  document.getElementById("main2").classList.add("hide");
+  document.getElementById("main3").classList.add("hide");
+  document.getElementById("main4").classList.add("hide");
+  document.getElementById("main5").classList.add("hide");
+  document.getElementById("main6").classList.add("hide");
+  document.getElementById("main7").classList.add("hide");
 }
 
 function display_s2() {
@@ -32,7 +37,7 @@ function display_s2() {
     duration: 0.5,
     opacity: 0,
   });
-  gsap.from(".description-2", {
+  gsap.from(".d2", {
     y: 100,
     stagger: 0.1,
     duration: 0.5,
@@ -41,21 +46,21 @@ function display_s2() {
   gsap.from(".page-2-img-1", {
     opacity: 0,
     duration: 0.5,
-    y: 100,
+    y: 250,
   });
   gsap.from(".page-2-img-2", {
     opacity: 0,
     duration: 0.5,
-    y: -100,
+    y: -250,
   });
 
-  document.getElementById("main_s1").classList.add("hid");
-  document.getElementById("main_s2").classList.remove("hid");
-  document.getElementById("main_s3").classList.add("hid");
-  document.getElementById("main_s4").classList.add("hid");
-  document.getElementById("main_s5").classList.add("hid");
-  document.getElementById("main_s6").classList.add("hid");
-  document.getElementById("main_s7").classList.add("hid");
+  document.getElementById("main1").classList.add("hide");
+  document.getElementById("main2").classList.remove("hide");
+  document.getElementById("main3").classList.add("hide");
+  document.getElementById("main4").classList.add("hide");
+  document.getElementById("main5").classList.add("hide");
+  document.getElementById("main6").classList.add("hide");
+  document.getElementById("main7").classList.add("hide");
 }
 
 function display_s3() {
@@ -65,7 +70,7 @@ function display_s3() {
     duration: 0.5,
     opacity: 0,
   });
-  gsap.from(".description-3", {
+  gsap.from(".d3", {
     y: 100,
     stagger: 0.1,
     duration: 0.5,
@@ -74,21 +79,21 @@ function display_s3() {
   gsap.from(".page-3-img-1", {
     opacity: 0,
     duration: 0.5,
-    y: 100,
+    y: 300,
   });
   gsap.from(".page-3-img-2", {
     opacity: 0,
     duration: 0.5,
-    y: -100,
+    y: -275,
   });
 
-  document.getElementById("main_s1").classList.add("hid");
-  document.getElementById("main_s2").classList.add("hid");
-  document.getElementById("main_s3").classList.remove("hid");
-  document.getElementById("main_s4").classList.add("hid");
-  document.getElementById("main_s5").classList.add("hid");
-  document.getElementById("main_s6").classList.add("hid");
-  document.getElementById("main_s7").classList.add("hid");
+  document.getElementById("main1").classList.add("hide");
+  document.getElementById("main2").classList.add("hide");
+  document.getElementById("main3").classList.remove("hide");
+  document.getElementById("main4").classList.add("hide");
+  document.getElementById("main5").classList.add("hide");
+  document.getElementById("main6").classList.add("hide");
+  document.getElementById("main7").classList.add("hide");
 }
 
 function display_s4() {
@@ -98,8 +103,8 @@ function display_s4() {
     duration: 0.5,
     opacity: 0,
   });
-  gsap.from(".description-4", {
-    y: 100,
+  gsap.from(".d4", {
+    y: 250,
     stagger: 0.1,
     duration: 0.5,
     opacity: 0,
@@ -127,13 +132,13 @@ function display_s4() {
     x: 200,
   });
 
-  document.getElementById("main_s1").classList.add("hid");
-  document.getElementById("main_s2").classList.add("hid");
-  document.getElementById("main_s3").classList.add("hid");
-  document.getElementById("main_s4").classList.remove("hid");
-  document.getElementById("main_s5").classList.add("hid");
-  document.getElementById("main_s6").classList.add("hid");
-  document.getElementById("main_s7").classList.add("hid");
+  document.getElementById("main1").classList.add("hide");
+  document.getElementById("main2").classList.add("hide");
+  document.getElementById("main3").classList.add("hide");
+  document.getElementById("main4").classList.remove("hide");
+  document.getElementById("main5").classList.add("hide");
+  document.getElementById("main6").classList.add("hide");
+  document.getElementById("main7").classList.add("hide");
 }
 
 function display_s5() {
@@ -143,7 +148,7 @@ function display_s5() {
     duration: 0.5,
     opacity: 0,
   });
-  gsap.from(".description-5", {
+  gsap.from(".d5", {
     y: 100,
     stagger: 0.1,
     duration: 0.5,
@@ -152,36 +157,36 @@ function display_s5() {
   gsap.from(".page-5-img-1", {
     opacity: 0,
     duration: 0.5,
-    y: 200,
+    y: 150,
   });
   gsap.from(".page-5-img-2", {
     opacity: 0,
     duration: 0.5,
-    y: -200,
+    y: -250,
   });
   gsap.from(".page-5-img-3", {
     opacity: 0,
     duration: 0.5,
-    y: 300,
+    y: 150,
   });
   gsap.from(".page-5-img-4", {
     opacity: 0,
     duration: 0.5,
-    y: -100,
+    y: -200,
   });
   gsap.from(".page-5-img-5", {
     opacity: 0,
     duration: 0.5,
-    y: 100,
+    y: 200,
   });
 
-  document.getElementById("main_s1").classList.add("hid");
-  document.getElementById("main_s2").classList.add("hid");
-  document.getElementById("main_s3").classList.add("hid");
-  document.getElementById("main_s4").classList.add("hid");
-  document.getElementById("main_s5").classList.remove("hid");
-  document.getElementById("main_s6").classList.add("hid");
-  document.getElementById("main_s7").classList.add("hid");
+  document.getElementById("main1").classList.add("hide");
+  document.getElementById("main2").classList.add("hide");
+  document.getElementById("main3").classList.add("hide");
+  document.getElementById("main4").classList.add("hide");
+  document.getElementById("main5").classList.remove("hide");
+  document.getElementById("main6").classList.add("hide");
+  document.getElementById("main7").classList.add("hide");
 }
 
 function display_s6() {
@@ -191,7 +196,7 @@ function display_s6() {
     duration: 0.5,
     opacity: 0,
   });
-  gsap.from(".description-6", {
+  gsap.from(".d6", {
     y: 100,
     stagger: 0.1,
     duration: 0.5,
@@ -203,13 +208,13 @@ function display_s6() {
     y: 300,
   });
 
-  document.getElementById("main_s1").classList.add("hid");
-  document.getElementById("main_s2").classList.add("hid");
-  document.getElementById("main_s3").classList.add("hid");
-  document.getElementById("main_s4").classList.add("hid");
-  document.getElementById("main_s5").classList.add("hid");
-  document.getElementById("main_s6").classList.remove("hid");
-  document.getElementById("main_s7").classList.add("hid");
+  document.getElementById("main1").classList.add("hide");
+  document.getElementById("main2").classList.add("hide");
+  document.getElementById("main3").classList.add("hide");
+  document.getElementById("main4").classList.add("hide");
+  document.getElementById("main5").classList.add("hide");
+  document.getElementById("main6").classList.remove("hide");
+  document.getElementById("main7").classList.add("hide");
 }
 
 function display_s7() {
@@ -219,7 +224,7 @@ function display_s7() {
     duration: 0.5,
     opacity: 0,
   });
-  gsap.from(".description-7", {
+  gsap.from(".d7", {
     y: 100,
     stagger: 0.1,
     duration: 0.5,
@@ -228,21 +233,21 @@ function display_s7() {
   gsap.from(".page-7-img-1", {
     opacity: 0,
     duration: 0.5,
-    y: 100,
+    y: 200,
   });
   gsap.from(".page-7-img-2", {
     opacity: 0,
     duration: 0.5,
-    y: 100,
+    y: 200,
   });
 
-  document.getElementById("main_s1").classList.add("hid");
-  document.getElementById("main_s2").classList.add("hid");
-  document.getElementById("main_s3").classList.add("hid");
-  document.getElementById("main_s4").classList.add("hid");
-  document.getElementById("main_s5").classList.add("hid");
-  document.getElementById("main_s6").classList.add("hid");
-  document.getElementById("main_s7").classList.remove("hid");
+  document.getElementById("main1").classList.add("hide");
+  document.getElementById("main2").classList.add("hide");
+  document.getElementById("main3").classList.add("hide");
+  document.getElementById("main4").classList.add("hide");
+  document.getElementById("main5").classList.add("hide");
+  document.getElementById("main6").classList.add("hide");
+  document.getElementById("main7").classList.remove("hide");
 }
 
 //scroll trigger
@@ -252,6 +257,7 @@ var t1 = gsap.timeline({
     trigger: ".largest-div",
     start: "center 105%",
     end: "center 91%",
+    //markers: true,
     onLeave: () => display_s2(),
     onEnterBack: () => display_s1(),
   },
@@ -262,6 +268,7 @@ var t2 = gsap.timeline({
     trigger: ".largest-div",
     start: "center 91%",
     end: "center 78%",
+    //markers: true,
     onLeave: () => display_s3(),
     onEnterBack: () => display_s2(),
   },
@@ -289,6 +296,7 @@ var t5 = gsap.timeline({
     trigger: ".largest-div",
     start: "center 52%",
     end: "center 39%",
+
     onLeave: () => display_s6(),
     onEnterBack: () => display_s5(),
   },
